@@ -1,0 +1,11 @@
+name: Stable Starterkit
+type: theme
+description: Drupal 8 starterkit theme
+package: LilEngine
+core: 8.x
+base theme: stable
+screenshot: screenshot.png
+
+libraries:
+  - stable_starterkit/global-styling
+  - stable_starterkit/global-js
