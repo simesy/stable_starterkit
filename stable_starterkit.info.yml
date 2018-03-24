@@ -1,7 +1,7 @@
 name: Stable Starterkit
 type: theme
-description: Drupal 8 starterkit theme
-package: LilEngine
+description: Drupal 8 starterkit theme based on the Drupal core Stable theme.
+#package: acme
 core: 8.x
 base theme: stable
 screenshot: screenshot.png
