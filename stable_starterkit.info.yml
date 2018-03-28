@@ -5,6 +5,7 @@ description: Drupal 8 starterkit theme based on the Drupal core Stable theme.
 core: 8.x
 base theme: stable
 screenshot: screenshot.png
+logo: logo.png
 
 libraries:
   - stable_starterkit/global-styling

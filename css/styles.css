@@ -339,3 +339,51 @@ template {
 [hidden] {
   display: none;
 }
+
+header,
+main,
+footer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 5px 10px;
+  z-index: 9;
+  border: 1px solid #eee;
+  white-space: nowrap;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+ul li ul li {
+  display: block;
+  padding: 10px 0;
+}
+
+.search-block-form {
+  overflow: hidden;
+}
+
+.search-block-form .form-item,
+.search-block-form .form-actions {
+  float: left;
+}
